@@ -13,10 +13,10 @@ public class AutoShop {
         System.out.println(ford_2.getPurchaseInfo()+"\n"+ford_2.getInfo());
         System.out.println(truck.getPurchaseInfo()+"\n"+truck.getInfo());
 
-        System.out.println(sedan.getPurchaseInfo()+": "+sedan.getSalePrice());
-        System.out.println(ford_1.getPurchaseInfo()+": "+ford_1.getSalePrice());
-        System.out.println(ford_2.getPurchaseInfo()+": "+ford_2.getSalePrice());
-        System.out.println(truck.getPurchaseInfo()+": "+truck.getSalePrice());
+        System.out.println(sedan.getPurchaseInfo()+sedan.getSalePrice());
+        System.out.println(ford_1.getPurchaseInfo()+ford_1.getSalePrice());
+        System.out.println(ford_2.getPurchaseInfo()+ford_2.getSalePrice());
+        System.out.println(truck.getPurchaseInfo()+truck.getSalePrice());
         
     }
 }

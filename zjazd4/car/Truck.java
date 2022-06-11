@@ -18,6 +18,6 @@ public class Truck extends Car implements Purchase{
     }
     @Override
     public String getPurchaseInfo() {
-        return "TRUCK";
+        return "TRUCK: ";
     }
 }
